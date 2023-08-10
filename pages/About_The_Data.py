@@ -95,3 +95,18 @@ st.markdown("""
 - Floors climbed
 - Specific type of exercise (Bike, treadmill, hike, etc.)
 """)
+            
+st.markdown("<div style='text-align: center;'> <h2> Predictive Data: </h2> </div>", unsafe_allow_html=True)
+st.markdown("In order to test the models, I built out a data frame with 7 months of my own fitness data tracked by fitbit. The data frame includes the following Metrics:")
+st.markdown("""
+- Date of Log
+- Step Count
+- Total Distance
+- Active Minutes
+- Calories Burned
+""")
+
+st.markdown("***") 
+st.markdown("<div style='text-align: center;'> <h2> Take a look at the data dictionary: </h2> </div>", unsafe_allow_html=True)  
+
+st.markdown("https://docs.google.com/document/d/1i1pThbEJZuE9GVgRLM0M26viCWBhJCBkHgmOoi6ZwkQ/edit?usp=sharing")
