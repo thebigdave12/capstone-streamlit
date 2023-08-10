@@ -1,6 +1,7 @@
+pip install statsmodels
+
 streamlit
 pandas
-numpy
 seaborn
 matplotlib
-statsmodels.api
+statsmodels 
